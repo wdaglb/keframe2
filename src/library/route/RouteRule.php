@@ -6,9 +6,13 @@
 // +----------------------------------------------------------------------
 
 
-// 定义应用目录
-define('APP_PATH', __DIR__ . '/../application/');
+namespace ke\route;
 
-require '../vendor/autoload.php';
 
-\ke\Ke::bootstrap(APP_PATH);
+class RouteRule
+{
+    private $rule = [];
+
+
+
+}

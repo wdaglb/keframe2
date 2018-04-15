@@ -4,11 +4,6 @@
 // +----------------------------------------------------------------------
 // | Author: King east <1207877378@qq.com>
 // +----------------------------------------------------------------------
-
-
-// 定义应用目录
-define('APP_PATH', __DIR__ . '/../application/');
-
-require '../vendor/autoload.php';
-
-\ke\Ke::bootstrap(APP_PATH);
+return [
+    'debug'=>true
+];

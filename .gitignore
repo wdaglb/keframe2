@@ -3,3 +3,4 @@
 .uini
 /vendor
 /tests
+/composer.lock

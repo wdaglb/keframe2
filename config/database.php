@@ -6,9 +6,22 @@
 // +----------------------------------------------------------------------
 
 
-// 定义应用目录
-define('APP_PATH', __DIR__ . '/../application/');
+return [
 
-require '../vendor/autoload.php';
+    'driver'    => 'mysql',
 
-\ke\Ke::bootstrap(APP_PATH);
+    'host'      => 'localhost',
+
+    'database'  => 'cy_account',
+
+    'username'  => 'root',
+
+    'password'  => 'root',
+
+    'charset'   => 'utf8',
+
+    'collation' => 'utf8_general_ci',
+
+    'prefix'    => ''
+
+];

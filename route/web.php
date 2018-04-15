@@ -6,9 +6,19 @@
 // +----------------------------------------------------------------------
 
 
-// 定义应用目录
-define('APP_PATH', __DIR__ . '/../application/');
+use ke\Route;
 
-require '../vendor/autoload.php';
 
-\ke\Ke::bootstrap(APP_PATH);
+Route::group('index', function () {
+    Route::get('/', 'IndexController@index');
+
+
+    Route::get('/article/[id:n]', 'IndexController@article')->as('index/article');
+
+});
+
+
+
+Route::get('/index', 'IndexController@index');
+
+

@@ -1,6 +1,28 @@
 {
-    "require": {
-        "ke/extends": "dev-master",
-        "noahbuscher/macaw": "dev-master"
+  "name": "ke/frame2",
+  "type": "ke-framework",
+  "keywords": [
+    "framework",
+    "ke"
+  ],
+  "authors": [
+    {
+      "name": "ke",
+      "email": "1207877378@qq.com"
     }
+  ],
+  "require": {
+    "composer/installers": "~1.0",
+    "ke/extends": "dev-master",
+    "illuminate/database": "*",
+    "twig/twig": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {"ke\\": "src/library/"}
+  },
+  "extra": {
+    "installer-paths": {
+      "src/": ["vendor/ke"]
+    }
+  }
 }
