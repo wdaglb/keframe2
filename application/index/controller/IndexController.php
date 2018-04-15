@@ -22,9 +22,6 @@ class IndexController
     public function article()
     {
         var_dump(Route::url('index/IndexController@article', ['id'=>123, 'page'=>1]));
-        var_dump(Route::url('index/IndexController@article', ['id'=>123, 'page'=>2]));
-        var_dump(Route::url('index/IndexController@article', ['id'=>123, 'page'=>3]));
-        var_dump(Route::url('index/IndexController@article', ['id'=>123, 'page'=>1]));
     }
 
 }
