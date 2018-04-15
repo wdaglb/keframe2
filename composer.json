@@ -1,0 +1,6 @@
+{
+    "require": {
+        "ke/extends": "dev-master",
+        "noahbuscher/macaw": "dev-master"
+    }
+}
